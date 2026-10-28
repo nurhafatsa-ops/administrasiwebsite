@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portofolio – Nama Lengkap Anda</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Newsreader:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ====== PETUNJUK ======
+       1. Ganti semua teks "Nama Lengkap Anda", umur, jurusan, dll. dengan data Anda.
+       2. Taruh foto di folder "foto/": profil.jpg, galeri-1.jpg ... galeri-6.jpg
+       3. Buka index.html di browser.
+  -->
+
+  <div class="layout">
+
+    <!-- Kartu profil -->
+    <aside class="profil">
+      <figure class="foto-profil">
+        <img src="foto/profil.jpg" alt="Foto Nama Lengkap Anda">
+      </figure>
+      <h1>Nama Lengkap Anda</h1>
+      <p class="tagline">Mahasiswa yang suka belajar hal baru dan membuat sesuatu yang berguna.</p>
+
+      <dl class="data">
+        <div><dt>Umur</dt><dd>20 tahun</dd></div>
+        <div><dt>Jurusan</dt><dd>Teknik Informatika</dd></div>
+        <div><dt>Kampus</dt><dd>Nama Universitas Anda</dd></div>
+        <div><dt>Asal</dt><dd>Makassar, Sulawesi Selatan</dd></div>
+        <div><dt>Hobi</dt><dd>Fotografi, membaca, olahraga</dd></div>
+      </dl>
+
+      <a class="tombol" href="#kontak">Hubungi saya</a>
+    </aside>
+
+    <main>
+
+      <section id="tentang">
+        <h2>Tentang saya</h2>
+        <p>
+          Halo, saya Nama Lengkap Anda, mahasiswa jurusan Teknik Informatika yang berasal dari
+          Makassar. Saya tertarik pada pengembangan web, desain, dan fotografi. Di sini saya
+          menaruh karya, kegiatan, dan hal-hal yang sedang saya pelajari.
+        </p>
+      </section>
+
+      <section id="keahlian">
+        <h2>Keahlian</h2>
+        <ul class="chip">
+          <li>HTML &amp; CSS</li>
+          <li>JavaScript</li>
+          <li>Desain grafis</li>
+          <li>Fotografi</li>
+          <li>Kerja tim</li>
+          <li>Public speaking</li>
+        </ul>
+      </section>
+
+      <section id="pendidikan">
+        <h2>Pendidikan &amp; pengalaman</h2>
+        <ol class="garis-waktu">
+          <li>
+            <span class="tahun">2024 – sekarang</span>
+            <h3>S1 Teknik Informatika</h3>
+            <p>Nama Universitas Anda. Aktif di organisasi mahasiswa.</p>
+          </li>
+          <li>
+            <span class="tahun">2021 – 2024</span>
+            <h3>SMA / SMK Nama Sekolah Anda</h3>
+            <p>Jurusan IPA. Anggota ekstrakurikuler fotografi.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section id="galeri">
+        <h2>Galeri foto</h2>
+        <div class="galeri">
+          <figure class="besar"><img src="foto/galeri-1.jpg" alt="Foto 1" loading="lazy"><figcaption>Judul foto 1</figcaption></figure>
+          <figure><img src="foto/galeri-2.jpg" alt="Foto 2" loading="lazy"><figcaption>Judul foto 2</figcaption></figure>
+          <figure><img src="foto/galeri-3.jpg" alt="Foto 3" loading="lazy"><figcaption>Judul foto 3</figcaption></figure>
+          <figure><img src="foto/galeri-4.jpg" alt="Foto 4" loading="lazy"><figcaption>Judul foto 4</figcaption></figure>
+          <figure><img src="foto/galeri-5.jpg" alt="Foto 5" loading="lazy"><figcaption>Judul foto 5</figcaption></figure>
+          <figure class="besar"><img src="foto/galeri-6.jpg" alt="Foto 6" loading="lazy"><figcaption>Judul foto 6</figcaption></figure>
+        </div>
+      </section>
+
+      <section id="kontak">
+        <h2>Kontak</h2>
+        <ul class="kontak">
+          <li><span>Email</span><a href="mailto:email@contoh.com">email@contoh.com</a></li>
+          <li><span>WhatsApp</span><a href="https://wa.me/6281234567890">+62 812-3456-7890</a></li>
+          <li><span>Instagram</span><a href="https://instagram.com/usernameanda">@usernameanda</a></li>
+          <li><span>GitHub</span><a href="https://github.com/usernameanda">github.com/usernameanda</a></li>
+        </ul>
+      </section>
+
+      <footer>© 2026 Nama Lengkap Anda</footer>
+    </main>
+
+  </div>
+</body>
+</html>
